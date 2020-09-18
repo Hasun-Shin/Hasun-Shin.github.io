@@ -4,5 +4,5 @@ from shin import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.main),
+    path('https://hasun-shin.github.io/', views.main),
 ]
